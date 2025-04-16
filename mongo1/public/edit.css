@@ -1,0 +1,71 @@
+/* Reset Defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+/* Body Styling */
+body {
+    background: #f3e5f5; /* Light Purple Background */
+    color: #4a148c; /* Deep Purple Text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Header Styling */
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #6a1b9a; /* Medium Purple */
+}
+
+/* Form Styling */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Textarea Styling */
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ab47bc; /* Light Purple Border */
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Input Focus */
+textarea:focus {
+    border-color: #8e24aa; /* Deep Purple */
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    background: #8e24aa; /* Rich Purple */
+    color: white;
+    padding: 12px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background: #6a1b9a; /* Darker Purple */
+}
